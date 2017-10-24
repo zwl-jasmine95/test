@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>三栏布局</title>
+    <style lang="less">
+        .grid{
+            display: flex;
+        }
+        .grid>div{
+            height: 200px;
+            border: solid 1px red;
+        }
+        .left{
+            min-width: 100px;   /*限制最小宽度即可固定宽度*/
+        }
+        .main{
+            width: 100%;
+        }
+        .right{
+            min-width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 左右两栏固定，中间自适应 -->
+    <div class="grid">
+        <div class="left"></div>
+        <div class="main"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
