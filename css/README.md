@@ -30,3 +30,20 @@
 ```
 还可以利用float或者position布局。
 [demo](https://zwl-jasmine95.github.io/test/css/one.html)
+
+### 2、盒模型 
+- 标准模式 <br/>
+padding+margin+content+border <br/>
+    总宽度/高度=width/height+padding+border+margin
+
+ ![image](../images/box-1.png)
+ 
+    也就是说：内容宽度=元素宽度（content）
+
+
+- 怪异模式 <br/>
+总宽度/高度= width/height+margin
+
+![image](../images/box-2.png)
+
+    也就是说：内容宽度=元素宽度(content)+padding+border-width

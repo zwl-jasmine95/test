@@ -16,3 +16,9 @@ function unique2(arr){
     return [...new Set(arr)];
 }
 console.log(unique2([2,3,1,3,4,2]));
+
+for(let i=0;i<100;i++){
+    // let i = parseInt(Math.random()*100);
+    let i = (Math.random()*100).toFixed(0);
+    console.log(i);
+}
